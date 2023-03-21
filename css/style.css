@@ -8,6 +8,10 @@ li {
   list-style: none;
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+  text-align: center;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -42,7 +46,7 @@ li {
 .hero::before {
   position: absolute;
   content: "";
-  background: url("./vadim-sherbakov-d6ebY-faOO0-unsplash.jpg") center
+  background: url("../image/vadim-sherbakov-d6ebY-faOO0-unsplash.jpg") center
     center/cover;
 
   height: calc(100vh - 100px);
@@ -73,4 +77,48 @@ li {
   padding: 15px 35px;
   cursor: pointer;
   background: rgb(255, 1, 1);
+}
+.course {
+  height: 40h;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #111111;
+  margin-top: 50px;
+}
+.courseBlog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 120px;
+  width: 90%;
+}
+.courses {
+  height: 350px;
+  width: 350px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 12px;
+  background: #add1b37d;
+}
+.courses h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.courses p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.bg {
+  background: #7bc4d5;
+  padding-top: 40px;
 }
