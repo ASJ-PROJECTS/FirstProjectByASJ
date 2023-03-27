@@ -5,6 +5,9 @@
   font-family: sans-serif;
   /* color: #ffffff; */
 }
+::-webkit-scrollbar {
+  display: none;
+}
 li {
   list-style: none;
   cursor: pointer;
@@ -31,7 +34,7 @@ a {
 }
 .links {
   display: flex;
-  width: 30%;
+  width: 20%;
   align-items: center;
   justify-content: space-between;
   font-size: 16px;
@@ -136,7 +139,7 @@ a {
   text-align: center;
 }
 .facility {
-  background: #7bc4d5;
+  background: #8a2be2;
   padding-top: 40px;
 }
 .facility .courses {
@@ -247,7 +250,7 @@ input {
   border: none;
   border-radius: 4px;
   width: 50vw;
-  background: none;
+  /* background: none; */
   border: none;
   /* border-bottom: 2px solid grey; */
 
