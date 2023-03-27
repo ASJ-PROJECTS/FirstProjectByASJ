@@ -1,0 +1,85 @@
+.Courses{
+max-width: 12   00px;
+margin:0  auto;
+padding: 40px 60px;
+display: flex;
+flex-direction: column;
+gap: 80px;
+}
+.Diploma h1{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.Degree h1{
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+.course-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    border: 1px solid red;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: end;
+    background: grey;
+    border-radius: 8px;
+  transition: background-size .5s;
+
+}
+.desc{
+    padding: 10px 20px;
+    background-color: white;
+    margin: 10px 20px;
+    border-radius: 8px;
+  
+}
+.desc h4{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.desc p{
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+.desc button{
+    background: blue;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+border: none;
+}
+.card1{
+    background: url(https://images.unsplash.com/photo-1665392996886-0949d131a5da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29tcHV0ZXIlMjBlbmdpbmVlcmluZyUyMGFlc3RoZXRpY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) ;
+    background-size: 150%;
+
+}
+.card2{
+    background: url(https://images.unsplash.com/photo-1665392996886-0949d131a5da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29tcHV0ZXIlMjBlbmdpbmVlcmluZyUyMGFlc3RoZXRpY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) ;
+    background-size: 150%;
+}
+.card3{
+    background: url(https://images.unsplash.com/photo-1665392996886-0949d131a5da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29tcHV0ZXIlMjBlbmdpbmVlcmluZyUyMGFlc3RoZXRpY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) ;
+    background-size: 150%;
+}
+.card4{
+    background: url(https://images.unsplash.com/photo-1665392996886-0949d131a5da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29tcHV0ZXIlMjBlbmdpbmVlcmluZyUyMGFlc3RoZXRpY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) ;
+    background-size: 150%;
+}
+.card1:hover{
+    background-size: 160%;
+}
+.card2:hover{
+    background-size: 160%;
+}
+.card3:hover{
+    background-size: 160%;
+}
+.card4:hover{
+    background-size: 160%;
+}
