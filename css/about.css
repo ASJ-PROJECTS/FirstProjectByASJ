@@ -1,0 +1,34 @@
+.AboutUs{
+    max-width: 1200px;
+    margin:  20px auto;
+    
+    
+}
+.banner{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ 
+}
+.banner h1{
+    text-align: center;
+    font-size: 54px;
+
+}
+.content{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.content p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.content img{
+width: 45%;
+border-radius: 12px;
+}
