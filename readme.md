@@ -1,4 +1,4 @@
-# Just A Demo Website Inspired from SJCEM
+# Just A Demo Website About Collage
 
 ### Viewing Website
 
