@@ -205,6 +205,9 @@ a {
 }
  
  
+.courses img{
+  width: 200px;
+}
 
  
 .courses p {
@@ -332,7 +335,9 @@ a {
   width: 50%;
 }
  
- 
+ .left img{
+  width: 300px;
+ }
 
  
 .line {
