@@ -60,6 +60,7 @@ a {
 
  
 .links {
+
   display: flex;
   width: 30%;
   align-items: center;
@@ -69,6 +70,7 @@ a {
 }
 
 .links li a {
+    position: relative;
   color: #111111;
 }
  
@@ -484,4 +486,34 @@ label {
 
   
 }
+.active::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: black;
+  bottom: -6px;
+}
+.links a{
+
+}
+
+.nactive::before{
+  transition: .2s all ease-in;
+  position: absolute;
  
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: grey;
+  bottom: -6px;
+}
+.nactive:hover::before{
+  position: absolute;
+  content: '';
+
+  width: 100%;
+  height: 2px;
+  background: grey;
+  bottom: -6px;
+}
