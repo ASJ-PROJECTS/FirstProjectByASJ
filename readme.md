@@ -10,9 +10,9 @@ You can view this webite form [here](https://asj-projects.github.io/FirstProject
 
 <details>
 <summary>Screenshots For Refrence</summary>
-<img src="./SSC/1.png/" alt="">
-<img src="./SSC/2.png/" alt="">
-<img src="./SSC/3.png/" alt="">
-<img src="./SSC/4.png/" alt="">
+<img src="./SS/1.png/" alt="">
+<img src="./SS/2.png/" alt="">
+<img src="./SS/3.png/" alt="">
+<img src="./SS/4.png/" alt="">
 
 </details>
