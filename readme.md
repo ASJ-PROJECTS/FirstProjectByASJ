@@ -1,4 +1,6 @@
 # Just A Demo Website About Collage
+> First Project by our team member Smit. This is the basic HTML, CSS And Javascript website which is made on Collage Theme.
+
 
 ## Viewing Website:
 
