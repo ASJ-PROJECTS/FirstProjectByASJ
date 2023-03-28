@@ -1,6 +1,6 @@
 # Just A Demo Website About Collage
 
-### Viewing Website
+## Viewing Website:
 
 You can view this webite form [here](https://asj-projects.github.io/FirstProjectBySmith/).
 </br>
