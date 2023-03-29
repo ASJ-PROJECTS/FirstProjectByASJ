@@ -4,7 +4,7 @@
 
 ## Viewing Website:
 
-You can view this webite form [here](https://asj-projects.github.io/FirstProjectBySmith/).
+You can view this webite form [here](https://asj-projects.github.io/FirstProjectByASJ/index.html).
 </br>
 <b>Note: This is only Laptop Responsive, so it will only look good in Laptop...</b>
 
